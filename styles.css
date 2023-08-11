@@ -1,27 +1,27 @@
 body {
-  text-align: center;
-  background-color: #011F3F;
+  
+  background-color: lightgray !important;
 }
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
   margin:  5%;
-  color: #FEF2BF;
+  color: #011F3F;
 }
 
-.container {
+.my-container {
   display: block;
   width: 50%;
   margin: auto;
 
 }
 
-.btn {
+.my-btn {
   margin: 25px;
   display: inline-block;
   height: 200px;
-  width: 200px;
+  max-width: 200px !important;
   border: 10px solid black;
   border-radius: 20%;
 }

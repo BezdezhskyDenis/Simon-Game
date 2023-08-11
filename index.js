@@ -26,7 +26,7 @@ $(document).keypress(function (event) {
   }
 });
 
-$(".btn").on("click", function () {
+$(".my-btn").on("click", function () {
   var userChosenColour = $(this).attr("id");
   userClickedPattern.push(userChosenColour);
   playColorAudio(userChosenColour);
